@@ -3,7 +3,12 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "csv_blob_linked",
-			"type": "LinkedServiceReference"
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"container": "landing",
+				"folder": "ELAN",
+				"file_name": "ELAN_File - Sheet1.csv"
+			}
 		},
 		"annotations": [],
 		"type": "DelimitedText",
