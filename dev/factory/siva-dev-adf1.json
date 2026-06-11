@@ -1,0 +1,15 @@
+{
+	"name": "siva-dev-adf1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "45e56a8b-a6dc-413b-b970-f2a404443430",
+		"tenantId": "de3d5ba5-cef7-4e80-b72e-60f8679d146f"
+	}
+}
